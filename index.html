@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<style>
+		.header , .footer{
+			background-color: #999;
+			text-align: center;
+			margin: 0;
+		}
+		.footer{
+			position : fixed;
+			bottom: 0;
+			left : 0;
+			width : 100%;
+		}
+		.body .content {
+			font-size : 14px;
+			padding : 20px;	
+			background-color: #eee;
+			height: 100%; 
+		}
+		</style>
+		
+		<meta charset="UTF-8">
+		<meta name="description" content="mobile phones">
+		<meta name="keywords" content="apple , iphone , mobile , phones">
+		<meta name="author" content="neeraj kaplas">
+	</head>
+	<body>
+		<h1 class="header">
+			This is Header
+		</h1>
+		<div class="body">
+			<div class="content">
+				
+			</div>
+		</div>
+		<h1 class="footer">
+			this is footer
+		</h1>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript">
+		$(".content").text("apple iphone 6");
+		</script>
+	</body>
+</html>
